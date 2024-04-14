@@ -1,38 +1,45 @@
-# Task #2 Instructions
+# Task #3 Process files, calculate checksums, follow the instruction, etc.
 
-## Language: Python
+## Language Options
 
-1. Download the archive from the provided link.
-2. Calculate the SHA3-256 hash for each file in the archive.
-3. Write hashes as 64 hex digits in lowercase.
-4. Sort the hashes in ascending order.
-5. Join sorted hashes without any separator.
-6. Concatenate the resulted string with your email address in lowercase.
-7. Find the SHA3-256 hash of the resulting string.
-8. Send the obtained 64 hex digits in lowercase to the Discord channel.
+Choose any of the following languages to complete the task:
 
-## Submission Command
+- C#
+- JavaScript
+- TypeScript
+- Ruby
+- PHP
+- Python
+- Java
+- or any other language of your preference
 
-# Checking for an Odd Number of Unique Moves in Rock-Paper-Scissors
+## Task Description
 
-## Language: JavaScript
+1. Calculate the SHA3-256 hash for each file from the provided archive.
+2. The files are binary, so encoding is not required. Ensure not to perform any encoding-decoding activity.
+3. Convert each hash to 64 hex digits in lowercase.
+4. Sort the hashes in ascending order as strings.
+5. Concatenate the sorted hashes without any separator.
+6. Append your email address in lowercase to the concatenated string.
+7. Calculate the SHA3-256 hash of the resulting string.
 
-1. Run the script providing an odd number of unique moves in rock-paper-scissors.
-2. Example script execution:
+## Submission Instructions
 
-```bash
-node rockPaperScissors.js rock paper scissors
-```
-
-**Note:** Ensure that an odd number of unique moves is provided before running the script.
+- Once you obtain the 64 hex digits in lowercase, submit them to the Discord channel using the command:
 
 ## Additional Hints
 
-- Ensure you use the SHA3-256 algorithm.
-- Process exactly 256 files from the archive.
+- Ensure the correct usage of SHA3-256.
+- Confirm processing exactly 256 required files.
 - Concatenate strings without separators.
-- Write the email in lowercase and append it to the end of the result string.
-- Calculate a separate hash for each file.
+- Ensure the email address is lowercase and placed at the end of the resulting string.
+- Calculate separate hash for every file.
+
+## Deadline
+
+Next Friday
+
+Note: Do not edit binary files in text editors; redownload if necessary.
 
 ## Task1: Longest Common Substring
 
