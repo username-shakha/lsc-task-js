@@ -64,12 +64,12 @@ Write a JavaScript code that prints the longest common substring of passed argum
 **How to submit task #1:**
 You have to drag and drop a script with the solution into the #task1 channel. And type (in the same message, not a separate one) the following line:
 
+```
+!task1 email.used@for.registration.here
+```
+
 **You have to use the email specified during course enrollment.**
 
 Submitted solutions are checked by a script, do not add descriptions or instructions.
 
 If something went wrong, just describe the situation via email to p.lebedev@itransition.com.
-
-```
-
-```
